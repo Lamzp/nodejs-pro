@@ -1,4 +1,4 @@
-# Những fogers và packages cần thiết
+# Những folders và packages cần thiết
 
 1. tạo file _server.js_
    để làm gì: _khởi động network_ nodejs
