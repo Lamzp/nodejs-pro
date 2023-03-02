@@ -48,3 +48,16 @@
 
 11. npm i compression
     để làm gì: để giảm băng thông khi ta gửi đến người dùng
+
+## section 3
+
+sự khác nhau giữ folder utils và helpers
+
+utils và các function dùng ở tần xuất nhiều
+helpers dùng chỉ khi cần sử dụng
+
+
+### kiểm tra số lượng connect của mongoodb bằng file check.connect.js trong folder helpers
+
+### Thông báo khi server quá tải connect
+nguyên tắc lập trình không được nhúng số nào vô code hết
