@@ -56,8 +56,15 @@ sự khác nhau giữ folder utils và helpers
 utils và các function dùng ở tần xuất nhiều
 helpers dùng chỉ khi cần sử dụng
 
-
 ### kiểm tra số lượng connect của mongoodb bằng file check.connect.js trong folder helpers
 
 ### Thông báo khi server quá tải connect
+
 nguyên tắc lập trình không được nhúng số nào vô code hết
+
+## Section 4: Lịch sử của .env và cách kết hợp env và configs cho dự án nhiều môi trường và Members
+
+1. Tại sao lại cần file .env liệu không cần có được không
+   -Dùng để làm gì: tách biệt thông tin nhạy cảm khỏi code của chúng ta, giúp code chúng ta sạch sẽ và bảo trì code trơn tru hơn cũng như an toàn hơn vì không lưu vào các văn bản thuần túy
+2. Sự khác nhau giữa file .env và file config
+   \_config dùng để kiểm soát lưu trữ cài đặt ứng dụng chúng ta mà có thể kiểm soát được code
